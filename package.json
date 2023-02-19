@@ -19,5 +19,8 @@
   "homepage": "https://github.com/umhello2020/OOP-Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
