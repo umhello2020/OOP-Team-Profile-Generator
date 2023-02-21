@@ -6,7 +6,7 @@ const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
 const path = require('path');
 
-// helps create new HTML page 
+// helps create path to new HTML page 
 const DIST_DIR = path.resolve(__dirname, 'dist');
 const distPath = path.join(DIST_DIR, 'team.html');
 
@@ -180,7 +180,13 @@ function appStart () {
 
     // function to join employee information together
     function formTeam () {
+        // if directory does not already exist, creates directory that will contain new HTML and CSS file
+        if(!fs.existsSync(DIST_DIR)) {
+            fs.mkdirSync(DIST_DIR);
+        }
 
+        // creates HTML and passes myTeam array into the dist directory
+        fs.writeFileSync(distPath, render(myTeam), 'utf-8');
     }
 
     createManager ();
