@@ -17,7 +17,7 @@ describe('getOfficeNumber', () => {
 describe('getRole', () => {
     it('display role from getRole function', () => {
         testValue = 'Manager';
-        const test = new Intern('Travis', 543257, 'oakley@email.com');
+        const test = new Manager('Travis', 543257, 'oakley@email.com');
         expect(test.getRole()).toBe(testValue);
     });
 });
