@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: monospace;
+}
+
+h1 {
+    background-color: rgb(94, 226, 123);
+    color: aliceblue;
+    padding: 20px;
+}
+
+.card-area {
+    margin: 3em auto;
+}
+
+.card-header {
+    background-color: rgb(20, 173, 89);
+    color: aliceblue;
+}
+
