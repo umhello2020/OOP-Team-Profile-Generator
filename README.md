@@ -26,7 +26,7 @@ This project is my second dive into back-end development, and this application w
 ## Visuals
 
 Here is a walkthrough video of what the process should look like.
-[Untitled_ Feb 23, 2023 9_19 PM.webm](https://user-images.githubusercontent.com/118483617/221084807-a12d186e-b08c-4b8e-9577-6dda2d1b5779.webm)
+[Untitled_ Feb 23, 2023 9_33 PM.webm](https://user-images.githubusercontent.com/118483617/221085788-a12502fa-3685-4060-9c96-c0739c8cc35f.webm)
 
     
 ## Installation
