@@ -11,7 +11,7 @@ const generateCards = cards => {
                 <h2 class="card-title">${manager.getName()}</h2>
                 <h3 class="card-title">${manager.getRole()}</h3>
             </div>
-            <div class="card-body">
+            <div class="card-body card-area">
                 <ul class="list-group">
                     <li class="list-group-item">ID: ${manager.getId()}</li>
                     <li class="list-group-item">Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a></li>
@@ -30,7 +30,7 @@ const generateCards = cards => {
                 <h2 class="card-title">${engineer.getName()}</h2>
                 <h3 class="card-title">${engineer.getRole()}</h3>
             </div>
-            <div class="card-body">
+            <div class="card-body card-area">
                 <ul class="list-group">
                     <li class="list-group-item">ID: ${engineer.getId()}</li>
                     <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
@@ -49,7 +49,7 @@ const generateCards = cards => {
                 <h2 class="card-title">${intern.getName()}</h2>
                 <h3 class="card-title">${intern.getRole()}</h3>
             </div>      
-            <div class="card-body">
+            <div class="card-body card-area">
                 <ul class="list-group">
                     <li class="list-group-item">ID: ${intern.getId()}</li>
                     <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
@@ -100,12 +100,10 @@ module.exports = cards => {
         <title>My Team</title>
     </head>
 
-    <body>
-        <div class="container-fluid">
-            <header>
-                <h1>My Team</h1>
-            </header>
-        </div>
+    <body class="text-center">
+        <header>
+            <h1>My Team</h1>
+        </header>
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">

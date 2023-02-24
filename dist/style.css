@@ -1,6 +1,6 @@
 html {
     height: 100%;
-}
+} 
 
 body {
     font-family: monospace;
@@ -9,11 +9,11 @@ body {
 h1 {
     background-color: rgb(94, 226, 123);
     color: aliceblue;
-    padding: 20px;
+    padding: 20px; 
 }
 
 .card-area {
-    margin: 3em auto;
+    margin: 2rem auto;
 }
 
 .card-header {
@@ -21,3 +21,7 @@ h1 {
     color: aliceblue;
 }
 
+.card {
+    margin: 1rem;
+    min-width: 100px;
+}
